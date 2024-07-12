@@ -1,0 +1,22 @@
+{
+  "name": "api-cesta-compras",
+  "version": "1.0.0",
+  "description": "Proxy server for the frontend",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0"
+  },
+  "scripts": {
+    "start": "node --watch index.js",
+    "lint": "standard --fix"
+  },
+  "devDependencies": {
+    "standard": "^17.1.0"
+  },
+  "eslintConfig": {
+    "extends": ".node_modules/standard/eslintrc.json"
+  }
+}
